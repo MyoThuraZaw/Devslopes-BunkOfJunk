@@ -14,6 +14,9 @@
 		E363722D29B39ADB00BF6416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E363722C29B39ADB00BF6416 /* Assets.xcassets */; };
 		E363723029B39ADB00BF6416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E363722E29B39ADB00BF6416 /* LaunchScreen.storyboard */; };
 		E363723329B39ADB00BF6416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E363723229B39ADB00BF6416 /* main.m */; };
+		E3716B5F29B41CA3006EB93E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E3716B5E29B41CA3006EB93E /* Person.m */; };
+		E3716B6229B41CB0006EB93E /* Backpack.m in Sources */ = {isa = PBXBuildFile; fileRef = E3716B6129B41CB0006EB93E /* Backpack.m */; };
+		E3716B6529B41E09006EB93E /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = E3716B6429B41E09006EB93E /* School.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		E363722F29B39ADB00BF6416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E363723129B39ADB00BF6416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E363723229B39ADB00BF6416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3716B5D29B41CA3006EB93E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E3716B5E29B41CA3006EB93E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E3716B6029B41CB0006EB93E /* Backpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Backpack.h; sourceTree = "<group>"; };
+		E3716B6129B41CB0006EB93E /* Backpack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Backpack.m; sourceTree = "<group>"; };
+		E3716B6329B41E09006EB93E /* School.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		E3716B6429B41E09006EB93E /* School.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				E363722429B39AD900BF6416 /* SceneDelegate.m */,
 				E363722629B39AD900BF6416 /* ViewController.h */,
 				E363722729B39AD900BF6416 /* ViewController.m */,
+				E3716B5D29B41CA3006EB93E /* Person.h */,
+				E3716B5E29B41CA3006EB93E /* Person.m */,
+				E3716B6029B41CB0006EB93E /* Backpack.h */,
+				E3716B6129B41CB0006EB93E /* Backpack.m */,
+				E3716B6329B41E09006EB93E /* School.h */,
+				E3716B6429B41E09006EB93E /* School.m */,
 				E363722929B39AD900BF6416 /* Main.storyboard */,
 				E363722C29B39ADB00BF6416 /* Assets.xcassets */,
 				E363722E29B39ADB00BF6416 /* LaunchScreen.storyboard */,
@@ -148,8 +163,11 @@
 			files = (
 				E363722829B39AD900BF6416 /* ViewController.m in Sources */,
 				E363722229B39AD900BF6416 /* AppDelegate.m in Sources */,
+				E3716B5F29B41CA3006EB93E /* Person.m in Sources */,
+				E3716B6529B41E09006EB93E /* School.m in Sources */,
 				E363723329B39ADB00BF6416 /* main.m in Sources */,
 				E363722529B39AD900BF6416 /* SceneDelegate.m in Sources */,
+				E3716B6229B41CB0006EB93E /* Backpack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
